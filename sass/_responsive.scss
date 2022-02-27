@@ -1,0 +1,47 @@
+@include media-md {
+  .container-cards {
+    width: 90%;
+    margin: auto;
+
+    &__card {
+      height: 250px;
+
+      img {
+        position: relative;
+        left: 520px;
+        bottom: -40px;
+      }
+    }
+  }
+}
+
+@include media-lg {
+  .lg-margin {
+    width: 40%;
+    margin: auto;
+  }
+  .container-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    &__card {
+      height: 560px;
+      width: 430px;
+
+      img {
+        position: relative;
+        left: 290px;
+        bottom: -100px;
+      }
+    }
+
+    .card-1,
+    .card-4 {
+      align-self: center;
+    }
+
+    .card-center {
+      margin: 0 2rem 0 2rem;
+    }
+  }
+}

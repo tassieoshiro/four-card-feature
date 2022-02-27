@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// VARIABLES
+$red: #ea5353;
+$blue-light: #45d3d3;
+$orange: #fcaf4a;
+$blue: #549ef2;
+
+$dark-blue: #4c4e61;
+$blue-grey: #a3a5ae;
+$light-grey: #fafafa;
+
+.font-2 {
+  font-weight: 200;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}

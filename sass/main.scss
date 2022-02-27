@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  // - Weights: 200, 400, 600
+}
+
+// SET MARGIN ON MOBILE SCREEN
+.description {
+  width: 90%;
+  margin: 4rem auto 4rem auto;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.container-cards {
+  width: 85%;
+  margin: auto;
+
+  &__card {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-height: 340px;
+    // max-width: 460px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+
+    img {
+      position: relative;
+      left: 230px;
+      bottom: -20px;
+    }
+  }
+  .card-1 {
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #45d3d3;
+  }
+  .card-2 {
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #ea5353;
+  }
+  .card-3 {
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #fcaf4a;
+  }
+  .card-4 {
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: #549ef2;
+  }
+}
+
+// ATTRIBUTION
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@import "config", "responsive";
